@@ -1,0 +1,52 @@
+---
+title: "BONUS: Data Dictionary"
+author: "Tanja"
+date: "08/10/2019"
+output: pdf_document
+---
+
+### BONUS
+
+A Business Analyst in the financial investment sector is studying the annual bonus payments made to financial traders. As part of the study 176 financial traders were interviewed and the following sample data was recorded:  
+
+#### Sample Data  
+
+
+* **Bonus**: Annual bonus (£) paid to trader.
+
+* **Years**: Number of years experience as a trader.
+
+* **Score**: Trading competency score – the higher the score the better the	trader performed in a competency test.
+
+* **Profit**:	The amount of profit - (£millions) - made by the trader over the last year.
+
+* **Experience**:	Type of experience the trader has:
+
+  - **1**: experience in one financial market only; 
+  
+  - **2**: experience in more than one financial market.
+
+* **Market**:	Current  financial market the trader  is working in. The possible financial markets are:
+      
+  - **1**: Share Option dealings; 
+  
+  - **2**: Foreign Exchange dealings; 
+  
+  - **3**: Government Bond dealings; and 
+  
+  - **4**: Ordinary Share dealings.   
+
+### Try to:
+
+a)	Explain what is meant by a traditional regression model. Hence,
+
+\begin{itemize}
+  \item[] i.	Define $R^2$, and explain how it can be used to compare competing regression models and why $R^2_{adjusted}$ is needed.
+  \item[] ii.	Explain what is meant by a $t$-test within the context of regression modelling.
+  \item[] iii.	Discuss the differences between a multiple regression model and a GLM.
+\end{itemize}
+b)	Use a 2-stage GLM procedure to model the response variable Bonus against all of the available explanatory variables in the sample data set.
+
+\begin{itemize}
+  \item[] i. Use your fitted model to predict the bonus paid to a Foreign Exchange trader with 12 years experience in a range of markets, who rated 5 on the competency score and who made a trading profit of £11.25 million. Comment upon the reliability of this prediction.
+\end{itemize}
